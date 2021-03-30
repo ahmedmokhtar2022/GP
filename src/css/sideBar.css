@@ -1,0 +1,45 @@
+
+.side_bar_nav {
+    height: 100%;
+    position: relative;
+    top: -20px;
+    list-style: none;
+    width: 100%;
+    left: -40px;
+}
+.side_bar_table_li {
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    background: #494949;
+}
+.side_bar_table_li:hover {
+    background:whitesmoke;
+    color: black;
+    transition: 0.5;
+
+}
+svg.home_icon_side {
+    font-size: 27px;
+    position: relative;
+    top: 5px;
+}
+svg.statistics_icon_side {
+    font-size: 20px;
+}
+svg.shoping_icon_side {
+    font-size: 28px;
+    position: relative;
+    top: 9px;
+}
+svg.about_icon_side {
+    font-size: 20px;
+    position: relative;
+    left: 23px;
+    top: 2px;
+}
+li#log_out {
+    background: indianred;
+}

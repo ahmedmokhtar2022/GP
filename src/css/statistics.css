@@ -1,0 +1,164 @@
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+#statistic_wallpaper_blured{
+    filter: grayscale(1);
+}
+
+.statistics_container {
+    position: absolute;
+    left: 50%;
+    top: 120px;
+    width: 90%;
+    transform: translate(-50%, -80px);
+    padding: 20px;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+h1.statistic_header {
+    position: fixed;
+    left: 50%;
+    font-size: 23px;
+    transform: translate(-50%, 10px);
+    background: #000000;
+    color: white;
+    width: 885px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    letter-spacing: 5px;
+}
+.statistic_table {
+    text-align: center;
+    box-shadow: 0px 0px 17px #d1d1d1;
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+}
+
+h3.cases_over_world_h3 {
+    font-size: 36px;
+    font-family: inherit;
+    color: darkslategrey;
+    letter-spacing: 1px;
+}
+.cases_number_over_world {
+    color: #b6b6b6;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+.death_recoverd_line {
+    display: inline-flex;
+}
+.Death_over_world {
+    background: #ffcdd2;
+    width: 175px;
+    height: 135px;
+    position: relative;
+    left: 50%;
+    padding-top: 33px;
+    transform: translate(-130%, 10px);
+    border-radius: 65%;
+}
+h3.Death_over_world_h3 {
+    color: #ef1f66;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px;
+}
+.Death_number_over_world {
+    font-size: 21px;
+    letter-spacing: 2px;
+    color: #646464;
+    font-family: fantasy;
+}
+.recover_number_over_world {
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #646464;
+    margin-top: -10px;
+    font-family: fantasy;
+}
+.Recovered_over_world {
+    width: 170px;
+    height: 115px;
+    background: #90cc49de;
+    position: relative;
+    left: 50%;
+    transform: translate(-65%, 10px);
+    padding-top: 28px;
+    padding-bottom: 20px;
+    border-radius: 60%;
+}
+h3.recovered_over_world_h3 {
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    letter-spacing: -2px;
+    color: #363636;;
+}
+.active_over_world {
+    box-shadow: 0px 0px 8px #a9a9a9;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background: white;
+}
+
+.statistic_table_2 {
+    display: inline-flex;
+
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    margin-bottom: 200px;
+}
+
+.CLOSED._recoverd_line {
+    margin-left: 50px;
+    width: 300px;
+    box-shadow: 0px 0px 8px #a1a1a1;
+    border-radius: 20px;
+    text-align: center;
+    background: white;
+}
+
+.statistic_table_1 {
+    position: relative;
+    text-align: center;
+    padding: 40px;
+    border-radius: 150px;
+    background: linear-gradient( 
+269deg
+ , #78dd03a8, #00000000,#00000000, #f44336);
+   background-size: 400% 400%;
+            animation: gradient 6s ease infinite;
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        

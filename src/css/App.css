@@ -1,0 +1,133 @@
+a.active {
+  background: rgb(0, 127, 245);
+  color: #ffffff;
+  transition: 1s;
+}
+a.active:hover {
+  background: rgb(65, 68, 255);
+  transition: 0.5s;
+}
+a.s_active{
+  background: blue;
+}
+.navbar {
+  background: #282828;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  min-height: 60px;
+  height: 60px;
+  position: fixed;
+  box-shadow: 0px 0px 8px lightgrey;
+  top: 0;
+}
+ul.navbar_ul {
+  list-style: none;
+  display: inline-flex;
+  background: #ffffff;
+  height: 45px;
+  text-align: center;
+  align-items: center;
+  width: 370px;
+  border-radius: 35px;
+  box-shadow: 0px 0px 6px #1c2bd5;
+}
+li.navbar_li {
+  align-items:center ;
+  display: inline-flex;
+  padding: 14px;
+  margin: 1px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+li#home_li {
+  padding: 11px;
+  color: black;
+}
+
+span.span_li_name {
+  margin-top: 5px;
+  margin-left: 0px;
+}
+svg.home_icon {
+  font-size: 20px;
+  margin-right: 1px;
+}
+svg.statistics_icon {
+  font-size: 15px;
+  margin-left: 2px;
+}
+svg.shoping_icon {
+  font-size: 18px;
+}
+h3.logo {
+  margin: 40px;
+  padding: 18px;
+  font-size: 25px;
+  font-family: monospace;
+  color: white;
+  cursor: pointer;
+}
+
+svg.bar_icon {
+  margin-left: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+
+
+div.nav_user_photo{
+  width: 40px;
+height: 40px;
+border-radius: 50px;
+box-shadow: 0px 0px 4px #0f87ff;
+}
+.img_nav {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+}
+.notification {
+  position: absolute;
+  right: 320px;
+  top: 20px;
+  cursor: pointer;
+}
+svg.notification_icon {
+  font-size: 25px;
+}
+.nav_username {
+  margin: 8px;
+}
+li.navbar_li_user {
+  position: absolute;
+  right: 55px;
+  display: inline-flex;
+  top: 10px;
+  cursor: pointer;
+}
+
+.drop_down_nav_user {
+  margin-top: 4px;
+  font-size: 30px;
+  border-radius: 76px;
+  height: 30px;
+  width: 29px;
+  cursor: pointer;
+}
+li.navbar_li_user {
+  background: #03a9f4;
+  position: absolute;
+  right: 55px;
+  display: inline-flex;
+  top: 10px;
+  border: solid 1px #ffffff;
+  border-radius: 50px;
+}

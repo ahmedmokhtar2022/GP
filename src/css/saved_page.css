@@ -1,0 +1,13 @@
+h1.saved_page_header {
+    position: absolute;
+    background: #ffc356;
+    left: 50%;
+    transform: translate(-50%, 5px);
+    width: 59%;
+    text-align: center;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    color: #414141;
+}
